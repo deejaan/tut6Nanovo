@@ -20,8 +20,8 @@ public class Controller implements Initializable {
     public Button btndodaj;
     public ListView<Korisnik> listKorisnika;
     public Button btnkraj;
-    private KorisniciModel model;
-    public Controller(KorisniciModel model) {
+    private KorisnikModel model;
+    public Controller(KorisnikModel model) {
         this.model = model;
     }
 
